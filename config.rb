@@ -32,6 +32,9 @@
 # Helpers
 ###
 
+activate :i18n, :templates_dir => "translations", :mount_at_root => :en
+
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
@@ -55,6 +58,8 @@ set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
+
+  
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
