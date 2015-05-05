@@ -33,20 +33,29 @@
 ###
 
 activate :i18n, :templates_dir => "translations", :mount_at_root => :en
-
 activate :syntax
+activate :bh
+
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true
+end
 
 # Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
+activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+  activate :livereload
+end
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-XXXXXXX-X' # Replace with your property ID.
+end
 
 # Methods defined in the helpers block are available in templates
 # helpers do

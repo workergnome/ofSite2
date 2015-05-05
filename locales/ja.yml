@@ -1,0 +1,12 @@
+---
+ja:
+  homepage:
+    tagline: openFrameworks 創造的なコーディングのためのC++のオープンソースツールキット
+    download: download the library
+    download_desc: 最新のリリース(0.8.4)の入手と、openFrameworksを作動させるためのセットアップガイド。
+    docs: read the documentation
+    docs_desc: "openFrameworksのクラス、関数、アドオンのリファレンス資料。ガイドやチュートリアルは、%{tutorials_link}を参照してください。"
+    tutorials: tutorials section
+    forums: browse the forum
+    forums_desc: "フォーラムは、openFrameworksに関係する多くの仲間と交流する場となっています。"
+

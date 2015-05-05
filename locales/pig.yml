@@ -1,11 +1,24 @@
 ---
 pig:
   header:
-    about: aboutay
+    about: aboutway
     download: ownloadday
     documentation: ocumentationday
     tutorials: utorialstay
     gallery: allerygay
     community: ommunitycay
     development: evelopmentday
-  test_string: "Ellohay orldway"
+  footer:
+    credit_text: Ostinghay orfay openframeworksway isway enerouslygay ovidedpray byay
+      Ackspaceray.
+    last_updated: Astlay Updatedway %{date}
+  homepage:
+    tagline: openframeworksway isway anway openway ourcesay Cay++ oolkittay orfay eativecray odingcay.
+    download: ownloadday
+    download_desc: Abgray ethay ostmay ecentray eleaseray (0.8.4ay) andway ollowfay ethay etupsay uidegay otay etgay openframeworksway unningray.
+    docs: ocumentationday
+    docs_desc: "Eferenceray orfay openframeworksway assesclay, unctionsfay andway addonsway. Ouyay ancay alsoway eckchay ethay %{tutorials_link}."
+    tutorials: utorialstay ectionsay
+    forums: orumsfay
+    forums_desc: "Ethay orumfay isway away aceplay otay eetmay otherway eoplepay orkingway ithway openframeworksway. It'sway away aceplay otay areshay ouryay orkway, orway indfay elphay olvingsay oblemspray."
+  test_string: Ellohay Orldway

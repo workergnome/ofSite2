@@ -22,3 +22,12 @@ gem 'redcarpet'
 
 # Add coffeescript support
 gem 'coffee-script'
+
+# Sillyness
+gem "pig_latin"
+gem "rake"
+gem "middleman-google-analytics"
+gem 'bh', '~> 1.2'
+
+# Deployment
+gem 'middleman-deploy', '~> 1.0'

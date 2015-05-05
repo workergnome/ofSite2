@@ -1,0 +1,25 @@
+---
+title: openFrameworks
+---
+
+.container
+  .row
+    .col-md-6.col-lg-4
+      %h1= t "homepage.tagline"
+      %hr.compact
+      %h2= link_to t("homepage.download"), "download.html"
+      %p= t "homepage.download_desc"
+      %h2= link_to t("homepage.docs"), "documentation.html"
+      %p= t "homepage.docs_desc", tutorials_link: link_to(t("homepage.tutorials"),"tutorials.html")
+      %h2= link_to t("homepage.forums"), "http://forum.openframeworks.cc"
+      %p= t "homepage.forums_desc"
+      
+    .col-md-6.col-lg-8
+      %p
+        .embed-responsive.embed-responsive-16by9
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/74124094?color=ee3987&title=0&byline=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+  / .row
+  /   .col-md-12
+  /     = partial 'partials/sample_code'
