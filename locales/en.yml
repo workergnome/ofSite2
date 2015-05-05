@@ -1,3 +1,11 @@
 ---
 en:
-  hello: "Hello"
+  header:
+    about: about
+    download: download  
+    documentation: documentation
+    tutorials: tutorials
+    gallery: gallery
+    community: community
+    development: development
+  test_string: "Hello World"

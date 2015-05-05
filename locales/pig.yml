@@ -1,3 +1,11 @@
 ---
 pig:
-  hello: "Ellohay"
+  header:
+    about: aboutay
+    download: ownloadday
+    documentation: ocumentationday
+    tutorials: utorialstay
+    gallery: allerygay
+    community: ommunitycay
+    development: evelopmentday
+  test_string: "Ellohay orldway"
