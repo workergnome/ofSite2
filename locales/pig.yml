@@ -1,5 +1,6 @@
 ---
 pig:
+
   header:
     about: aboutway
     download: ownloadday
@@ -8,10 +9,12 @@ pig:
     gallery: allerygay
     community: ommunitycay
     development: evelopmentday
+
   footer:
     credit_text: Ostinghay orfay openframeworksway isway enerouslygay ovidedpray byay
       Ackspaceray.
     last_updated: Astlay Updatedway %{date}
+
   homepage:
     tagline: openframeworksway isway anway openway ourcesay Cay++ oolkittay orfay eativecray odingcay.
     download: ownloadday
@@ -21,4 +24,5 @@ pig:
     tutorials: utorialstay ectionsay
     forums: orumsfay
     forums_desc: "Ethay orumfay isway away aceplay otay eetmay otherway eoplepay orkingway ithway openframeworksway. It'sway away aceplay otay areshay ouryay orkway, orway indfay elphay olvingsay oblemspray."
+
   test_string: Ellohay Orldway

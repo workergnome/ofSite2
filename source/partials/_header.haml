@@ -20,7 +20,7 @@
                 %ul.dropdown-menu.dropdown-menu-right{role:"menu", "aria-labelledby" => "lang"}
                   - langs.map(&:to_s).each do |locale|
                     %li
-                      = link_to "/#{locale == "en" ? "" : locale}" do
+                      = link_to "/#{locale == "en" ? "" : (locale + "/")}index.html" do
                         %span.lang-sm.lang-lbl{lang:locale}
 
         .row
