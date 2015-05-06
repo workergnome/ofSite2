@@ -99,28 +99,31 @@ fieldset[disabled] .btn-of.active {
   color: #555;
   text-transform: uppercase;
   border-bottom: 1px solid #DDD; }
-  /* line 19, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
+  /* line 18, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
+  .major-items .tooltip, .minor-items .tooltip {
+    text-transform: none; }
+  /* line 21, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
   .major-items > li, .minor-items > li {
     padding-left: 10px; }
-  /* line 21, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
+  /* line 23, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
   .major-items > li:first-child, .minor-items > li:first-child {
     padding-left: 0px; }
-  /* line 23, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
+  /* line 25, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
   .major-items a, .minor-items a {
     color: inherit; }
-  /* line 25, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
+  /* line 27, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
   .major-items a:hover, .minor-items a:hover {
     color: #555;
     text-decoration: none; }
 
-/* line 29, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
+/* line 31, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
 .minor-items {
   margin-top: -8px;
   font-size: 100%;
   border-bottom: none;
   color: #888; }
 
-/* line 35, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
+/* line 37, /Users/david/Sites/ofSite2/source/stylesheets/_header.sass */
 #lang span {
   top: 2px;
   cursor: pointer; }
