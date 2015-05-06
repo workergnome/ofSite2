@@ -2,22 +2,20 @@
 title: openFrameworks
 ---
 
+
 .container
   .row
-
 
     .col-md-6.col-lg-5
       %h1= t "homepage.tagline"
       %hr.compact
               
       %h2= link_to t("homepage.download"), "download.html"
-      %p= t "homepage.download_desc"
+      %p= t "homepage.download_desc", version: data.of_version.current_version_number
       %h2= link_to t("homepage.docs"), "documentation.html"
       %p= t "homepage.docs_desc", tutorials_link: link_to(t("homepage.tutorials"),"tutorials.html")
       %h2= link_to t("homepage.forums"), "http://forum.openframeworks.cc"
-      %p= t "homepage.forums_desc"
-      
-
+      %p= t "homepage.forums_desc"      
 
     .col-md-6.col-lg-7
       %p
@@ -28,7 +26,7 @@ title: openFrameworks
     .col-xs-12
       %hr.compact
       .download-block.text-center
-        %button.btn.btn-of.btn-lg= t "homepage.cta", version: "0.8.4"
+        %button.btn.btn-of.btn-lg= t "homepage.cta", version: data.of_version.current_version_number
 
 
   / .row

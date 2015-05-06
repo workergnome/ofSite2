@@ -17,7 +17,11 @@ You'll also need a copy of [ImageMagick](http://www.imagemagick.org) for use wit
 
 #### `/source/layouts`
 
-This contains the layout, or the wrapper around all the HTML pages.  This is where the head information goes, as well as the javascript includes, the header, the footer, etc.
+This contains the layout, which is the wrapper around all the HTML pages. 
+
+#### `/source/partials`
+
+This is where reusable template bits go, sucha as the header, the footer, etc.
 
 #### `/source/partials`
 

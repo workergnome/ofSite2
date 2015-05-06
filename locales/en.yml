@@ -7,15 +7,18 @@ en:
     download: download  
     documentation: documentation
     tutorials: tutorials
-    gallery: gallery
     community: community
     development: development
     forum: Forum
+    forum_tooltip: "The community forum for openFrameworks"
     addons: ofAddons
+    addons_tooltip: "A list of community-submitted libraries for openFrameworks"
     github: github
-    mailing: mailing list
-    irc: IRC 
+    github_tooltip: "The git repository for openFrameworks"
+    irc: IRC
+    irc_tooltip: "The openFrameworks IRC channel"
     blog: blog
+    blog_tooltip: "Information about what's happening in openFrameworks"
 
   footer:
     credit_text: Hosting for openFrameworks is generously provided by Rackspace.
@@ -26,7 +29,7 @@ en:
     cta_other_versions: Download for other operating systems
     tagline: openFrameworks is an open source C++ toolkit for creative coding.
     download: download the library
-    download_desc: Grab the most recent release (0.8.4) and follow the setup guide for your operating system to get openFrameworks running.
+    download_desc: "Grab the most recent release (%{version}) and follow the setup guide for your operating system to get openFrameworks running."
     docs: read the documentation
     docs_desc: "Reference for openFrameworks classes, functions and addons. You can also check the %{tutorials_link}."
     tutorials: tutorials section
