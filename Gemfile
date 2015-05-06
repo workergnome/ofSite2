@@ -14,6 +14,11 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 
+# Addons
+gem "middleman-google-analytics"
+gem 'bh', '~> 1.2'
+gem "middleman-favicon-maker", "~> 3.7"
+
 # Add syntax highlighting.
 gem "middleman-syntax"
 
@@ -26,8 +31,6 @@ gem 'coffee-script'
 # Sillyness
 gem "pig_latin"
 gem "rake"
-gem "middleman-google-analytics"
-gem 'bh', '~> 1.2'
 
 # Deployment
 gem 'middleman-deploy', '~> 1.0'

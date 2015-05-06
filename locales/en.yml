@@ -2,6 +2,7 @@
 en:
 
   header:
+    external: "External Links:"
     about: about
     download: download  
     documentation: documentation
@@ -9,8 +10,8 @@ en:
     gallery: gallery
     community: community
     development: development
-    forum: forum
-    addons: addons
+    forum: Forum
+    addons: ofAddons
     github: github
     mailing: mailing list
     irc: IRC 
@@ -21,9 +22,11 @@ en:
     last_updated: "Last Updated %{date}"
 
   homepage:
+    cta: Download openFrameworks %{version}
+    cta_other_versions: Download for other operating systems
     tagline: openFrameworks is an open source C++ toolkit for creative coding.
     download: download the library
-    download_desc: Grab the most recent release (0.8.4) and follow the setup guide to get openFrameworks running.
+    download_desc: Grab the most recent release (0.8.4) and follow the setup guide for your operating system to get openFrameworks running.
     docs: read the documentation
     docs_desc: "Reference for openFrameworks classes, functions and addons. You can also check the %{tutorials_link}."
     tutorials: tutorials section

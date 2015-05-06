@@ -30,4 +30,39 @@ p
   line-height: 23px
   margin: 0 0 23px 0
 
-@import _footer, _header
+
+.btn-of 
+  color: #fff
+  background-color: darken($OF_PINK,10)
+  border-color: darken($OF_PINK,5)
+  font-family: 'Oswald', sans-serif
+  font-weight: 400
+  //text-transform: uppercase
+
+.btn-of:hover,
+.btn-of:focus,
+.btn-of:active,
+.btn-of.active 
+  background-color: $OF_PINK
+  border-color: #e1136c
+  color: #fff
+
+
+.btn-of.disabled:hover,
+.btn-of.disabled:focus,
+.btn-of.disabled:active,
+.btn-of.disabled.active,
+.btn-of[disabled]:hover,
+.btn-of[disabled]:focus,
+.btn-of[disabled]:active,
+.btn-of[disabled].active,
+fieldset[disabled] .btn-of:hover,
+fieldset[disabled] .btn-of:focus,
+fieldset[disabled] .btn-of:active,
+fieldset[disabled] .btn-of.active 
+  background-color: #ee3987
+  border-color: #ee3987
+
+
+
+@import _footer, _header, _index

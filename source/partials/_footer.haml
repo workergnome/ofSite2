@@ -7,7 +7,6 @@
         %p.text-muted.text-left [LAST GITHUB COMMIT HASH GOES HERE]
       .col-md-12.col-lg-6
         %p.text-muted.text-center
-          =link_to t("footer.credit_text"), "http://www.rackspace.com/", :target => "_blank"
-          %br
-          = link_to "http://www.rackspace.com/" do
-            = image_tag "rackspace_130x33_grey.png"
+          = link_to "http://www.rackspace.com/" , :target => "_blank" do
+            = t("footer.credit_text")
+            / = image_tag "rackspace_130x33_grey.png"
