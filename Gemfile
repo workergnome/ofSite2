@@ -14,7 +14,7 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 
-# Addons
+# Addons 
 gem "middleman-google-analytics"
 gem 'bh', '~> 1.2'
 gem "middleman-favicon-maker", "~> 3.7"

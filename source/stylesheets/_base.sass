@@ -1,5 +1,6 @@
 @import _variables
 
+// -------- BASE STYLES ------------------
 body
   font-family: 'Droid Serif', serif
 
@@ -25,12 +26,11 @@ h2
   line-height: 23px
   
 p 
-  font-family: 'Droid Serif', serif
   font-size: 15px
   line-height: 23px
   margin: 0 0 23px 0
 
-
+// -------- PINK BUTTONS! ------------------
 .btn-of 
   color: #fff
   background-color: darken($OF_PINK,10)
@@ -64,12 +64,16 @@ fieldset[disabled] .btn-of.active
   border-color: #ee3987
 
 
+// -------- SECONDARY TEXT AREAS -----------
+
 .row.secondary
   margin-top: 30px
   padding-top: 30px
-  padding-bottom: 20px
+  padding-bottom: 40px
   background-color: $SECONDARY_COLOR
   border-bottom: 2px solid #ddd
   border-radius: 5px 5px 0 0
+
+// --------- LOAD EXTERNAL FILES ---------
 
 @import _footer, _header, _index

@@ -8,7 +8,7 @@ en:
     documentation: documentation
     tutorials: tutorials
     community: community
-    development: development
+    development: contribute
     forum: Forum
     forum_tooltip: "The community forum for openFrameworks"
     addons: ofAddons
