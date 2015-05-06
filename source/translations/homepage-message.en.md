@@ -1,4 +1,4 @@
-#### openFrameworks is an <a href="license.html">open source</a> <a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a> toolkit designed to assist the creative process by providing a framework for experimentation.
+#### openFrameworks is designed to assist the creative process by providing a framework for experimentation.
 
 We've designed openFrameworks to work as general purpose glue, wrapping together several commonly used libraries, including:
 
