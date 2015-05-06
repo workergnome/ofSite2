@@ -2,7 +2,8 @@
   .container
     .row
       .col-xs-3.col-sm-2
-        = image_tag("of-logo.svg", class: 'img-responsive')
+        = link_to language_home do
+          = image_tag("of-logo.svg", class: 'img-responsive')
       .col-xs-9.col-sm-10
         .row
           .col-xs-12
@@ -20,7 +21,7 @@
                 %ul.dropdown-menu.dropdown-menu-right{role:"menu", "aria-labelledby" => "lang"}
                   - langs.map(&:to_s).each do |locale|
                     %li
-                      = link_to "/#{locale == "en" ? "" : (locale + "/")}index.html" do
+                      = link_to language_home(locale) do
                         %span.lang-sm.lang-lbl{lang:locale}
 
         .row

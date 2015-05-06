@@ -21,13 +21,13 @@ title: openFrameworks
       %p
         .embed-responsive.embed-responsive-16by9
           <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/74124094?color=ee3987&title=0&byline=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-  .row
-    .col-xs-12
       %hr.compact
       .download-block.text-center
         %button.btn.btn-of.btn-lg= t "homepage.cta", version: data.of_version.current_version_number
 
+  .row.secondary
+    .col-md-12.col-lg-10.col-lg-offset-1
+      = partial "homepage-message"
 
   / .row
   /   .col-md-12

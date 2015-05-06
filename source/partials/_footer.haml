@@ -1,11 +1,11 @@
 %footer.footer
   .container
     .row
-      .col-md-6.col-lg-3
-        %p.text-muted.text-right= t "footer.last_updated", date: Time.now
-      .col-md-6.col-lg-3
-        %p.text-muted.text-left [LAST GITHUB COMMIT HASH GOES HERE]
-      .col-md-12.col-lg-6
+      .col-md-6.col-lg-4
+        %p.text-muted.text-center= t "footer.last_updated", date: Time.now
+      .col-md-6.col-lg-4
+        %p.text-muted.text-center [LAST GITHUB COMMIT HASH GOES HERE]
+      .col-md-12.col-lg-4
         %p.text-muted.text-center
           = link_to "http://www.rackspace.com/" , :target => "_blank" do
             = t("footer.credit_text")
