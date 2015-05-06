@@ -1,6 +1,6 @@
 /* line 3, /Users/david/Sites/ofSite2/source/stylesheets/_base.sass */
 body {
-  font-family: Helvetica, "Ubuntu Regular", FreeSans, Arial, sans-serif; }
+  font-family: "Droid Serif", serif; }
 
 /* line 6, /Users/david/Sites/ofSite2/source/stylesheets/_base.sass */
 h1, h2, h3, h4, h5, h6 {
@@ -67,6 +67,15 @@ fieldset[disabled] .btn-of:active,
 fieldset[disabled] .btn-of.active {
   background-color: #ee3987;
   border-color: #ee3987; }
+
+/* line 67, /Users/david/Sites/ofSite2/source/stylesheets/_base.sass */
+.row.secondary {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #F5F5F5;
+  border-bottom: 2px solid #ddd;
+  border-radius: 5px 5px 0 0; }
 
 /* line 3, /Users/david/Sites/ofSite2/source/stylesheets/_footer.sass */
 .footer {
