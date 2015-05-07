@@ -13,20 +13,20 @@
   <link href='favicon.png' rel='shortcut icon'>
   <link href='favicon.ico' rel='icon' type='image/ico'>
   <!-- Set title to what's in the page YAML frontmatter, or just openFrameworks if we don't have anything else. -->
-  <title>openFrameworks</title>
+  <title>openFrameworks • about</title>
   <!-- Include the various css bits -->
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="http://fonts.googleapis.com/css?family=Oswald:400,700|Droid+Serif:400,700italic,700" rel="stylesheet" type="text/css" />
-  <link href="stylesheets/all-61055dad.css" rel="stylesheet" type="text/css" />
+  <link href="../stylesheets/all-61055dad.css" rel="stylesheet" type="text/css" />
   
 </head>
-<body class='index'>
+<body class='ja ja_about'>
   <!-- actual content goes here. -->
   <header class='header'>
     <div class='container'>
       <div class='row'>
         <div class='col-xs-3 col-sm-2'>
-          <a href="./"><img class="img-responsive" src="images/of-logo-d42dccaa.svg" />
+          <a href="./"><img class="img-responsive" src="../images/of-logo-d42dccaa.svg" />
           </a>
         </div>
         <div class='col-xs-9 col-sm-10'>
@@ -41,15 +41,15 @@
                 <li><a href="contribute.html">contribute</a></li>
                 <li class='dropdown'>
                   <a class='dropdown-toggle' data-toggle='dropdown' id='lang'>
-                    <span class='lang-sm' lang='en'></span>
+                    <span class='lang-sm' lang='ja'></span>
                   </a>
                   <ul aria-labelledby='lang' class='dropdown-menu dropdown-menu-right' role='menu'>
                     <li>
-                      <a href="ja/"><span class='lang-sm lang-lbl' lang='ja'></span>
+                      <a href="../about.html"><span class='lang-sm lang-lbl' lang='en'></span>
                       </a>
                     </li>
                     <li>
-                      <a href="pig/"><span class='lang-sm lang-lbl' lang='pig'></span>
+                      <a href="../pig/about.html"><span class='lang-sm lang-lbl' lang='pig'></span>
                       </a>
                     </li>
                   </ul>
@@ -75,51 +75,13 @@
   </header>
   <div class='container'>
     <div class='row'>
-      <div class='col-md-6 col-lg-5'>
-        <h1>openFrameworks is an open source C++ toolkit for creative coding.</h1>
-        <hr class='compact'>
-        <h2><a href="download.html">download the library</a></h2>
-        <p>Grab the most recent release (0.8.4) and follow the setup guide for your operating system to get openFrameworks running.</p>
-        <h2><a href="documentation.html">read the documentation</a></h2>
-        <p>Reference for openFrameworks classes, functions and addons. You can also check the <a href="tutorials.html">tutorials section</a>.</p>
-        <h2><a href="http://forum.openframeworks.cc">browse the forum</a></h2>
-        <p>The forum is a place to meet other people working with openFrameworks. It's a place to share your work, or find help solving problems.</p>
-      </div>
-      <div class='col-md-6 col-lg-7'>
-        <p>
-          <div class='embed-responsive embed-responsive-16by9'>
-            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/74124094?color=ee3987&title=0&byline=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-        </p>
-        <hr class='compact'>
-        <div class='download-block text-center'>
-          <button class='btn btn-of btn-lg'>Download openFrameworks 0.8.4</button>
-        </div>
+      <div class='col-md-12 col-lg-10 col-lg-offset-1'>
+        <h1>translation missing: ja.about.header</h1>
+        <p class='special'>translation missing: ja.about.subhead</p>
       </div>
     </div>
     <div class='row secondary'>
-      <div class='col-md-12 col-lg-10 col-lg-offset-1'>
-        <h4>openFrameworks is designed to assist the creative process by providing a framework for experimentation.</h4>
-        
-        <p>We&rsquo;ve designed openFrameworks to work as general purpose glue, wrapping together several commonly used libraries, including:</p>
-        
-        <ul>
-        <li><a href="http://www.opengl.org/">OpenGL</a>, <a href="http://glew.sourceforge.net/">GLEW</a>, <a href="http://www.opengl.org/resources/libraries/glut/">GLUT</a>, <a href="https://code.google.com/p/libtess2/">libtess2</a> and <a href="http://cairographics.org/">cairo</a> for graphics</li>
-        <li><a href="http://www.music.mcgill.ca/~gary/rtaudio/">rtAudio</a>, <a href="http://www.portaudio.com/">PortAudio</a>, <a href="http://http//connect.creativelabs.com/openal">OpenAL</a> and <a href="http://kissfft.sourceforge.net/">Kiss FFT</a> or <a href="http://www.fmod.org/">FMOD</a> for audio input, output and analysis</li>
-        <li><a href="http://freetype.sourceforge.net/index2.html">FreeType</a> for fonts</li>
-        <li><a href="http://freeimage.sourceforge.net/">FreeImage</a> for image saving and loading</li>
-        <li><a href="http://developer.apple.com/quicktime/">Quicktime</a>, <a href="http://gstreamer.freedesktop.org/">GStreamer</a> and <a href="https://github.com/ofTheo/videoInput">videoInput</a> for video playback and grabbing</li>
-        <li><a href="http://pocoproject.org/">Poco</a> for a variety of utilities</li>
-        <li><a href="http://opencv.org/">OpenCV</a> for computer vision</li>
-        <li><a href="http://assimp.sourceforge.net/">Assimp</a> for 3D model loading</li>
-        </ul>
-        
-        <p>We&rsquo;ve written the code to be massively cross-compatible. Currently we support five operating systems (Windows, OSX, Linux, iOS, Android) and four IDEs (XCode, Code::Blocks, and Visual Studio and Eclipse). The API is designed to be minimal and easy to grasp.</p>
-        
-        <p>openFrameworks is distributed under the <a href="license.html">MIT License</a>. This gives everyone the freedoms to use openFrameworks in any context: commercial or non-commercial, public or private, open or closed source. While many openFrameworks users give their work back to the community in a similarly free way, there is no obligation to contribute.</p>
-        
-        <p>Simply put, openFrameworks is a tool that makes it much easier to make things with code. We find it super useful, and we hope you do too.</p>
-      </div>
+      <div class='col-md-12 col-lg-10 col-lg-offset-1'></div>
     </div>
   </div>
   <footer class='footer'>
@@ -152,6 +114,6 @@
   <!-- Include the various javascript bits -->
   <script src="//code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="javascripts/all-dd4cd0b8.js" type="text/javascript"></script>
+  <script src="../javascripts/all-dd4cd0b8.js" type="text/javascript"></script>
   
 </body>
