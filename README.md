@@ -1,6 +1,6 @@
 # ofSite2
 
-An internationalized site for OpenFrameworks.  Built on the [Middleman](https://middlemanapp.com) framework for static sites.
+An internationalized site for openFrameworks.  Built on the [Middleman](https://middlemanapp.com) framework for static sites.
 
 ## Installation Instructions
 
@@ -56,6 +56,16 @@ This contains the layout, which is the wrapper around all the HTML pages.
 
 This is where reusable template bits go, sucha as the header, the footer, etc.
 
-###### `/source/translations`
+###### `/source/localizable_pages`
 
-These are all the reusable files.  They take their translations from the locales folder., unless they have a language extension built-in, in which case they are pre-localized.
+These are all the reusable content files.  They take their translations from the locales folder.
+
+They're written in [HAML](http://haml.info), a variant of HTML that uses significant whitespace to handle closing tags.  
+
+###### `/source/localized_markdown`
+
+These are pre-translated markdown files, one for each language that is needed.  the language extension between the file name and the `.md` indicates which language is used for each one.  They can be included into the `localizable_pages` as partials:
+
+```ruby
+    = partial "localized_markdown/homepage-message"
+```

@@ -25,10 +25,18 @@ h2
   font-size: 20px
   line-height: 23px
   
+h3
+  color: darken($OF_PINK,10)
+  font-weight: 400
+  font-size: 16px
+  line-height: 20px
+
 p 
   font-size: 15px
   line-height: 23px
   margin: 0 0 23px 0
+  &.special
+    font-size: 120%
 
 // -------- PINK BUTTONS! ------------------
 .btn-of 
@@ -73,7 +81,8 @@ fieldset[disabled] .btn-of.active
   background-color: $SECONDARY_COLOR
   border-bottom: 2px solid #ddd
   border-radius: 5px 5px 0 0
-
+  hr
+    border-color: #ccc
 // --------- LOAD EXTERNAL FILES ---------
 
 @import _footer, _header, _index

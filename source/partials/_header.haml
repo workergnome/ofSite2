@@ -13,22 +13,22 @@
               %li= link_to t("header.tutorials"), "tutorials.html"
               %li= link_to t("header.documentation"), "documentation.html"
               %li= link_to t("header.community"), "community.html"
-              %li= link_to t("header.development"), "development.html"
+              %li= link_to t("header.contribute"), "contribute.html"
               %li.dropdown
                 %a#lang.dropdown-toggle{'data-toggle' => "dropdown"}
                   %span.lang-sm{lang: I18n.locale}
                 %ul.dropdown-menu.dropdown-menu-right{role:"menu", "aria-labelledby" => "lang"}
-                  - langs.map(&:to_s).each do |locale|
+                  - other_langs.map(&:to_s).each do |locale|
                     %li
-                      = link_to language_home(locale) do
+                      = link_to translated_url(locale) do
                         %span.lang-sm.lang-lbl{lang:locale}
 
         .row
           .col-xs-12
             %ul.list-inline.minor-items.pull-right
               %li.text-muted= t("header.external")
-              %li= sublink "github", "https://github.com/openframeworks/openFrameworks"
-              %li= sublink "addons", "http://www.ofxaddons.com"
-              %li= sublink "forum",  "http://forum.openframeworks.cc/"
-              %li= sublink "irc",    "http://webchat.freenode.net/?channels=openframeworks&uio=MT1mYWxzZSY5PXRydWUmMTE9Mjk39"
-              %li= sublink "blog",   "http://blog.openframeworks.cc"
+              %li= sublink "github"
+              %li= sublink "addons"
+              %li= sublink "forum"
+              %li= sublink "irc"
+              %li= sublink "blog"

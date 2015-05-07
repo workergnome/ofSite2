@@ -10,7 +10,7 @@
 
 
 # Turn on internationalization
-activate :i18n, :templates_dir => "translations", :mount_at_root => :en
+activate :i18n, :templates_dir => "localizable_pages", :mount_at_root => :en
 # Turn on syntax highlighting
 activate :syntax
 # Turn on Bootstrap nelpers
@@ -46,6 +46,7 @@ end
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+
 
 # Build-specific configuration
 configure :build do

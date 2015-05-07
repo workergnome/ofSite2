@@ -1,0 +1,17 @@
+---
+title: openFrameworks • contribute
+---
+
+.container
+  .row
+    .col-md-12.col-lg-10.col-lg-offset-1
+      %h1=t "contribute.header"
+      %p.special=t "contribute.subhead", all_external_links
+      %p=t "contribute.using_git", all_external_links
+      %p=t "contribute.other_ways", community: link_to("community page","community.html")
+      
+  .row.secondary
+    .col-md-12.col-lg-10.col-lg-offset-1
+      = partial "localized_markdown/contribution_documents"
+      %hr
+      = partial "localized_markdown/contributor_list"

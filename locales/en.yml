@@ -1,23 +1,25 @@
 ---
 en:
+  external_links:
+    ofdev: of-dev mailing list
+    irc: IRC
+    github: GitHub
+    ci: continuous integration
 
   header:
     external: "External Links:"
+    # main links
     about: about
     download: download  
     documentation: documentation
     tutorials: tutorials
     community: community
-    development: contribute
-    forum: Forum
+    contribute: contribute
+    # sublinks
     forum_tooltip: "The community forum for openFrameworks"
-    addons: ofAddons
     addons_tooltip: "A list of community-submitted libraries for openFrameworks"
-    github: github
     github_tooltip: "The git repository for openFrameworks"
-    irc: IRC
     irc_tooltip: "The openFrameworks IRC channel"
-    blog: blog
     blog_tooltip: "Information about what's happening in openFrameworks"
 
   footer:
@@ -35,5 +37,11 @@ en:
     tutorials: tutorials section
     forums: browse the forum
     forums_desc: "The forum is a place to meet other people working with openFrameworks. It's a place to share your work, or find help solving problems."
+
+  contribute:
+    header: "openFrameworks development is a collaborative effort."
+    subhead: "It thrives on the contributions of %{contributors}, who engage in frequent discussion on the %{forum}, %{irc}, and the %{ofdev}."
+    using_git: "We use git, a distributed versioning system, which means also that people can branch, experiment, and make suggestions. If you look at the network diagram on %{github}, it's looks like some alien diagram, full of weaving branches, code pulling apart and coming together. There's a huge community, all over the world, working on the core code: fixing bugs, submitting pull requests, and shaping the tool the way they want to see it."
+    other_ways: "Not ready to dive into the core code? Visit the %{community} for other ways to contribute."
 
   test_string: "Hello World"

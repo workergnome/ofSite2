@@ -1,5 +1,7 @@
 ---
 pig:
+  paths:
+    contribute: ontributecay
 
   header:
     about: aboutway
@@ -8,7 +10,7 @@ pig:
     tutorials: utorialstay
     gallery: allerygay
     community: ommunitycay
-    development: evelopmentday
+    contribute: ontributecay
 
   footer:
     credit_text: Ostinghay orfay openframeworksway isway enerouslygay ovidedpray byay
