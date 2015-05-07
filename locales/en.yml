@@ -5,6 +5,10 @@ en:
     irc: IRC
     github: GitHub
     ci: continuous integration
+    forum_collaborators: forum collaborators
+    twitter: "@openframeworks"
+    addons_tutorial: "ofxAddons tutorial"
+    addons: ofxAddons
 
   header:
     external: "External Links:"
@@ -38,10 +42,41 @@ en:
     forums: browse the forum
     forums_desc: "The forum is a place to meet other people working with openFrameworks. It's a place to share your work, or find help solving problems."
 
+  community:
+
+    # body text
+    header: "We are a diverse community of hackers, artists, designers, students, & teachers from around the world."
+    get_involved: "Want to get involved right away? The OF community is always looking for developers, designers, writers, event organizers, and general enthusiasts to help build a better experience. If you're wondering where to look, dive into the %{forum_collaborators} section on the forum, or take a look at the existing %{tutorials}."
+    
+    #COC
+    code_of_conduct: Code of Conduct
+
+    #sidebar
+    meetups: "Join a Meetup"
+    meetups_body: "Gatherings of people working with oF or curious about getting involved.  A great place to meet people and share your ideas and projects!"
+    questions: "Questions?"
+    questions_body: "Join the %{irc} channel and introduce yourself! We're all constantly learning and helping each other, and we'd love to help you too."
+    
+    
   contribute:
     header: "openFrameworks development is a collaborative effort."
     subhead: "It thrives on the contributions of %{contributors}, who engage in frequent discussion on the %{forum}, %{irc}, and the %{ofdev}."
     using_git: "We use git, a distributed versioning system, which means also that people can branch, experiment, and make suggestions. If you look at the network diagram on %{github}, it's looks like some alien diagram, full of weaving branches, code pulling apart and coming together. There's a huge community, all over the world, working on the core code: fixing bugs, submitting pull requests, and shaping the tool the way they want to see it."
-    other_ways: "Not ready to dive into the core code? Visit the %{community} for other ways to contribute."
+    other_ways: "Not ready to dive into the core code?  There are lots of other ways to contribute, including teaching, writing, answering questions on the %{forum}, and fostering the openFrameworks %{community} in your home town."
+
+    # ways to belp
+    contribute: "Ways to Contribute"
+    write_tutorials: "Write tutorials"
+    write_tutorials_body: "Have experience with a particular topic? Help teach others by creating a tutorial. See the %{tutorials_wishlist} for ideas."
+    tutorials_wishlist_link_text: tutorial wishlist
+    create_addons: Create addons
+    create_addons_body: "An addon is code that extends openFrameworks in some way, allowing more advanced functionality. Visit %{addons} to view all addons and the %{addons_tutorial} to get started."
+    teach_of: Teach openFrameworks
+    teach_of_body: "Are you teaching an upcoming workshop, class, or event?  We'd love to hear about it.  let us know on %{twitter}."
+    develop_of: Develop openFrameworks
+    develop_of_body: "To get more in-depth information about OF, join the %{ofdev}! The dev list is a great place for discussion about the direction OF is heading. The list is open to everyone, and we like to foster a diverse crowd to help OF become as useful and interesting as possible!"
+    other_ways: Other contributions 
+    other_ways_body: "The OF community is always looking for developers, designers, writers, event organizers, and general enthusiasts to help build a better experience. Stay tuned on the %{forum} and via %{twitter} for opportunities."
+
 
   test_string: "Hello World"

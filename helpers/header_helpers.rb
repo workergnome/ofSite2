@@ -10,6 +10,7 @@ module HeaderHelpers
     })
   end
 
+
   # Generate a key/value pair for each link in external links.
   def all_external_links
     val = data.external_links.keys.each.map do |link|

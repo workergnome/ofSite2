@@ -8,10 +8,32 @@ title: openFrameworks • contribute
       %h1=t "contribute.header"
       %p.special=t "contribute.subhead", all_external_links
       %p=t "contribute.using_git", all_external_links
-      %p=t "contribute.other_ways", community: link_to("community page","community.html")
+      %p=t "contribute.other_ways", all_external_links.merge({community: link_to(t("header.community"),"contribute.html")})
       
   .row.secondary
-    .col-md-12.col-lg-10.col-lg-offset-1
+    .col-md-6.col-lg-5.col-lg-offset-1
+      %h2= t "contribute.contribute"
+
+      %h3=link_to(t("contribute.write_tutorials"),"tutorials.html")
+      %p= t "contribute.write_tutorials_body", tutorials_wishlist: link_to(t("contribute.tutorials_wishlist_link_text"),"tutorials.html#wishlist")
+      
+      %h3=link_to(t("contribute.create_addons"),data.external_links.addons)
+      %p= t "contribute.create_addons_body", all_external_links
+    
+
+      %h3=t("contribute.teach_of")
+      %p= t "contribute.teach_of_body", all_external_links
+      
+      %h3=link_to(t("contribute.develop_of"),"contribute.html")
+      %p= t "contribute.develop_of_body", all_external_links
+
+      %h3=t("contribute.other_ways")
+      %p= t "contribute.other_ways_body", all_external_links
+
+      // ------- Sidebar  -------------
+    .col-md-5.col-md-offset-1.col-lg-4
       = partial "localized_markdown/contribution_documents"
-      %hr
+  
+  .row.secondary
+    .col-md-12.col-lg-10.col-lg-offset-1
       = partial "localized_markdown/contributor_list"

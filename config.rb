@@ -65,7 +65,7 @@ configure :build do
 
   # Generate favicons
   activate :favicon_maker, :icons => {
-    "_favicon_template.svg" => [
+    "images/_favicon_template.svg" => [
       { icon: "apple-touch-icon-152x152-precomposed.png" },             # Same as apple-touch-icon-57x57.png, for retina iPad with iOS7.
       { icon: "apple-touch-icon-144x144-precomposed.png" },             # Same as apple-touch-icon-57x57.png, for retina iPad with iOS6 or prior.
       { icon: "apple-touch-icon-120x120-precomposed.png" },             # Same as apple-touch-icon-57x57.png, for retina iPhone with iOS7.

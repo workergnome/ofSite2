@@ -1,0 +1,30 @@
+---
+title: openFrameworks • community
+---
+.container
+  .row
+    .col-md-12.col-lg-10.col-lg-offset-1
+      %h1=t "community.header"
+      %p=t "community.get_involved", all_external_links.merge({tutorials: link_to(t("header.tutorials"),"tutorials.html")})
+      
+  .row.secondary
+    .col-md-6.col-lg-5.col-lg-offset-1
+      %h1 SOMETHING GOES HERE?
+
+    // ------- Sidebar  -------------
+    .col-md-5.col-md-offset-1.col-lg-4
+      %h2= t "community.meetups"
+      %p= t "community.meetups_body"
+      %ul
+        %li Meetup List Goes Here
+        %li Meetup List Goes Here
+        %li Meetup List Goes Here
+        %li Meetup List Goes Here
+
+      %h2= t "community.questions"
+      %p= t "community.questions_body", all_external_links
+
+  .row.secondary
+    .col-md-12.col-lg-10.col-lg-offset-1
+      %h1= t "community.code_of_conduct"
+      = partial "localized_markdown/code_of_conduct"
