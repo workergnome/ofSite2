@@ -15,9 +15,9 @@
   <!-- Set title to what's in the page YAML frontmatter, or just openFrameworks if we don't have anything else. -->
   <title>openFrameworks • about</title>
   <!-- Include the various css bits -->
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="http://fonts.googleapis.com/css?family=Oswald:400,700|Droid+Serif:400,700italic,700" rel="stylesheet" type="text/css" />
-  <link href="../stylesheets/all-61055dad.css" rel="stylesheet" type="text/css" />
+  <link href="../stylesheets/all-8132995e.css" rel="stylesheet" type="text/css" />
   
 </head>
 <body class='pig pig_about'>
@@ -25,14 +25,15 @@
   <header class='header'>
     <div class='container'>
       <div class='row'>
-        <div class='col-xs-3 col-sm-2'>
-          <a href="./"><img class="img-responsive" src="../images/of-logo-d42dccaa.svg" />
+        <div class='col-xs-12 col-sm-2 hidden-xs'>
+          <a id="of_logo" href="./"><img class="img-responsive" src="../images/of-logo-d42dccaa.svg" />
           </a>
         </div>
-        <div class='col-xs-9 col-sm-10'>
+        <div class='col-xs-12 col-sm-10'>
           <div class='row'>
             <div class='col-xs-12'>
               <ul class='list-inline major-items pull-right'>
+                <li class='visible-xs-inline-block'><a href="./">home</a></li>
                 <li><a href="about.html">aboutway</a></li>
                 <li><a href="download.html">ownloadday</a></li>
                 <li><a href="tutorials.html">utorialstay</a></li>
@@ -57,7 +58,7 @@
               </ul>
             </div>
           </div>
-          <div class='row'>
+          <div class='row hidden-xs'>
             <div class='col-xs-12'>
               <ul class='list-inline minor-items pull-right'>
                 <li class='text-muted'>External Links:</li>
@@ -76,19 +77,118 @@
   <div class='container'>
     <div class='row'>
       <div class='col-md-12 col-lg-10 col-lg-offset-1'>
-        <h1>translation missing: pig.about.header</h1>
-        <p class='special'>translation missing: pig.about.subhead</p>
+        <h1>openFrameworks is an <a href="license.html">open source</a> <a href='https://en.wikipedia.org/wiki/C%2B%2B'>C++</a> toolkit.</h1>
+        <p class='special'>It's designed to assist the creative process by providing a simple and intuitive framework for experimentation.</p>
       </div>
     </div>
     <div class='row secondary'>
-      <div class='col-md-12 col-lg-10 col-lg-offset-1'></div>
+      <div class='col-md-12 col-lg-10 col-lg-offset-1'>
+        <h1>Design Philosophy</h1>
+        <p>openFrameworks is guided by a number of goals: it should be collaborative, usable and simple, consistent and intuitive, cross-platform, powerful, and extensible. openFrameworks is also driven by a &ldquo;do it with others&rdquo; (DIWO) philosophy.</p>
+        
+        <p><strong>Collaborative</strong></p>
+        
+        <p>openFrameworks development is collaborative. It thrives on the contributions of <a href="https://github.com/openframeworks/openFrameworks/contributors">many people</a>, who engage in <a href="http://forum.openframeworks.cc/">frequent discussion</a>, and collaborate on <a href="http://ofxaddons.com/">addons</a> and <a href="../gallery">projects</a>. We encourage people to make openFrameworks their own, and contribute to the ecosystem.</p>
+        
+        <p>openFrameworks is developed in a collaborative way. We use git, a distributed versioning system, which means also that people can branch, experiment, and make suggestions. If you look at the network diagram on GitHub, it&rsquo;s looks like some alien diagram, full of weaving branches, code pulling apart and coming together. There&rsquo;s a huge community, all over the world, working on the core code: fixing bugs, submitting pull requests, and shaping the tool the way they want to see it. It&rsquo;s a world wide project, and it&rsquo;s common to wake up in the USA to an inbox full of pull requests and issues emails from coders in Asia and Europe. Over 70 people have contributed to the openFrameworks core directly, and hundreds of people have forked the code or contributed in other ways.</p>
+        
+        <p><strong>Simplicity</strong></p>
+        
+        <p>openFrameworks tries to balance usability and simplicity. The earliest versions of openFrameworks used the core as a tool for teaching C++ and OpenGL, but over time the examples have become the best way to learn while the core takes advantage of more advanced features. In exchange, we created many more examples that come with openFrameworks, with the goal of trying to make simple, hackable starting points for experimentation. </p>
+        
+        <p>We want openFrameworks to be as simple as possible, especially for folks coming from other languages and environments. C++ is a &ldquo;large&rdquo; language, large in the sense that you can write very different types of C++ code. If you go to the bookstore, you&rsquo;ll see hundreds of C++ books. We want to create a library where you don&rsquo;t need to be an expert, where at most you might need a book or two, but that the patterns, approaches and style of the code is simple and intuitive. We were especially interested in achieving a sort of parity with Processing, where many of the functions are similar, allowing easier movement from one framework to another.</p>
+        
+        <p><strong>Consistent and Intuitive</strong></p>
+        
+        <p>openFrameworks is consistent and intuitive: it should operate on the principle of least surprise, so that what you learn about one part of openFrameworks can be applied to other parts of it. Beginners can use openFrameworks to learn about common programming patterns, and advanced users will be able to apply their experience from other languages and toolkits.</p>
+        
+        <p>Student first is the motto. A lot of the thinking guiding openFrameworks is: what would I would have liked in a tool 5 or 10 years ago? We want the patterns of coding to be simple and to make it as easy as possible to type. This means having self-explanatory function names like &ldquo;play&rdquo; and &ldquo;stop&rdquo; for video players, and variable names that are intuitive. We have lots of discussions about intuition, driven by a desire to make the code as straightforward as possible. You should learn by typing, autocomplete should be helpful, etc. </p>
+        
+        <p><strong>Cross-platform</strong></p>
+        
+        <p>openFrameworks is a cross-platform toolkit. openFrameworks supports as many development environments and operating systems as possible. When you download openFrameworks, you can pick your platform and development environment of choice, and have projects and examples ready to learn from and play with. Difficult to port code is kept out of the core, and kept in addons instead.</p>
+        
+        <p>openFrameworks is designed to work on a multitude of platforms: OS X, Windows, Linux, iOS, Android, embedded ARM Linux systems, as well as experimental platforms such as BlackBerry PlayBook. openFrameworks developers have devised some clever ways of interfacing with other languages, such such as Java in the case of Android, or Objective-C in the case of iOS.</p>
+        
+        <p>The joy of a cross-platform library is that it&rsquo;s easy to port your ideas from platform to platform. You can sketch on your laptop then immediately run it on your phone. It allows your ideas to come first, without worrying about the grunt work in making something work across platforms.</p>
+        
+        <p><strong>Powerful</strong></p>
+        
+        <p>openFrameworks is powerful: it allows you to leverage advanced libraries like OpenCV, use hardware like your graphics card efficiently, and connect peripherals like cameras and other devices.</p>
+        
+        <p>We chose C++ because it&rsquo;s a fairly low level language, but can still be programmed in a high level way. Because C++ is an extension of the older C programming language, it&rsquo;s possible to write very low level, oldschool C code or higher level C++ code. In openFrameworks, we try to harness both approaches and present simple, clear, yet powerful ways of working with code. Using C++ also makes it easier to interface to the many libraries that have been written in C and C++ without needing to rely on a wrapper for another language.</p>
+        
+        <p>openFrameworks essentially wraps other libraries such as OpenGL, Cairo, FreeType, FreeImage, and OpenCV. You can think of openFrameworks as a layer of code between user code (the code you will write) and these libraries. Those libraries have different styles, idioms, approaches, etc. and our job it to wrap them in a way which makes them more consistent and intuitive.</p>
+        
+        <p><strong>Extensible</strong></p>
+        
+        <p>openFrameworks is extensible. When you find something missing from openFrameworks, it&rsquo;s easy to create addons that extend it. The core addons for openFrameworks generally wrap libraries rather than solving problems in novel ways. When openFrameworks wraps libraries, the libraries are left exposed for further hacking.</p>
+        
+        <p>One mental image of openFrameworks is a scaffolding, or shoulders to stand on while building what you want. One thing that helps keep the core light is that rather than try to include everything we can, openFrameworks has an &ldquo;addon&rdquo; system that allows for additional code, libraries, approaches, to be shared between users and woven into projects as necessary. </p>
+        
+        <p>An openFrameworks addon can be a snippet of code, or it might wrap much more complex libraries such as OpenNI, Tesseract, or Box2d. Addon names usually begin with the prefix &ldquo;ofx&rdquo;, allowing you to easily see the difference between &ldquo;core&rdquo; code and non core code. In addition we include &ldquo;core addons&rdquo;, addons that we think people will probably want to use, such as ofxOpenCv, but aren&rsquo;t essential for every project.</p>
+        
+        <p>We try to organize and support the community developing addons through the <a href="http://ofxaddons.com/">http://ofxaddons.com</a> site, which automatically collects addons from GitHub by looking for repos that contain the term &ldquo;ofx&rdquo; in the title. Right now there are more than 1,500 addons.</p>
+        
+        <p><strong>Do it with others (DIWO)</strong></p>
+        
+        <p>The driving philosophy behind openFrameworks is &ldquo;do it with others&rdquo; (DIWO). We love do it yourself (DIY) culture, which has been heavily promoted and facilitated by the rise of tutorial website like Instructables or Make. But we&rsquo;re also excited about the idea of &ldquo;making socially&rdquo; (&ldquo;with others&rdquo;). We practice DIWO through workshops, developer conferences, hackathons/labs, knitting circles and meetups in person, and online in the form of mailing lists, forum posts, and so on. We even have a gang sign. Because if you have a gang, you have to have a gang sign. The most important thing we want to stress is that you are not alone, that there&rsquo;s a great group of people out there learning, teaching, hacking, making and exploring the creative side of code. </p>
+        
+        <p>If you are not a part of the group, welcome!</p>
+      </div>
+    </div>
+    <div class='row secondary'>
+      <div class='col-md-12 col-lg-10 col-lg-offset-1'>
+        <h1>Frequently Asked Questions</h1>
+        <p><strong>Why create another library for C++, since many libraries exist?</strong></p>
+        
+        <p>There are plenty of libraries that exist make it easier to make software, especially with OpenGL. For example, ogre, irrlicht, JUCE, SDL, wxWindows, etc.</p>
+        
+        <p>Originally, openFrameworks was meant to provide a &ldquo;bare-bones&rdquo; alternative. We wanted to write a library that would be the bare minimum necessary to get started doing audio-visual work with C++.</p>
+        
+        <p>Over time, openFrameworks has evolved into a much more robust toolkit. Now, one of the biggest differences is audience. Our intended audience are folks using computers for creative, artistic expression, and who would like low level access to the data inside of media in order manipulate, analyze or explore.</p>
+        
+        <p><strong>Why did you choose to wrap this library?</strong></p>
+        
+        <p>We chose to work with the libraries that in our experience provide the cleanest and simplest API, the most generous licenses, and the easiest integration. </p>
+        
+        <p>For example, we chose GLUT as the windowing library. Primarily, because it&rsquo;s fairly universal, has a reasonably generous license, and it&rsquo;s rare to find a compiler or platform that is incompatible. We have used other windowing toolkits, such as glfw and wxWindows, and even hooked them up with openFrameworks, but in the end, we decided to go with the one of the easiest to get up and running.</p>
+        
+        <p><strong>Where can I see the latest version of openFrameworks?</strong></p>
+        
+        <p>The most recent release is available from the <a href="../downloads">downloads</a> page, which is also available on <a href="https://github.com/openframeworks/openFrameworks/">github</a>. The absolutely most recent version of openFrameworks is located in the <a href="https://github.com/openframeworks/openFrameworks/tree/develop">develop branch</a>. For more information about building OF from Github, see the <a href="https://github.com/openframeworks/openFrameworks/blob/master/readme.txt">readme</a>. For more information about contributing to Github, see <a href="https://github.com/openframeworks/openFrameworks/wiki/openFrameworks-git-workflow">this document</a>.</p>
+        
+        <p><strong>How can I help?</strong></p>
+        
+        <p>By making addons, helping improve the documentation and most importantly, by making tutorials or instructions. If you are using OF to make interesting things, post as much source, info and ideas as you can. If you are beginning, take notes about what&rsquo;s confusing and join us on the forum to ask questions and see what people are doing/thinking.</p>
+        
+        <p><strong>Why is openFrameworks distributed as source instead of binary?</strong></p>
+        
+        <p>For several reasons &mdash; first, it is practical. Because openFrameworks is still a work in progress, we will be making changes to it as we go. By keeping the code visible, it makes those changes a lot easier, and we get better feedback about problems and confusions. Second, it&rsquo;s educational, in that it gives the curious a good starting point for learning about C++ library wrangling. Third, it&rsquo;s an active invitation for users of openFrameworks to change, modify and reconfigure the library to their tastes or whims.</p>
+        
+        <p><strong>How can I learn C++?</strong></p>
+        
+        <p>We don&rsquo;t really expect that openFrameworks should be used as a teaching tool for C++, but we imagine that it might be a &ldquo;first step&rdquo; for those interested in dabbling with C++. We promote an active community on the <a href="http://forum.openframeworks.cc/">forum</a>, so we would recommend you post some questions there. We would also recommend: </p>
+        
+        <ul>
+        <li><a href="http://www.itee.uq.edu.au/~comp3300/Resources/C_C++_notes.pdf">C and C++ in 5 days</a> by Philip Machanick, which is one of the best documents we&rsquo;ve seen about learning C++ (and in 5 days, no less!).</li>
+        <li><a href="http://wiki.openframeworks.cc/index.php?title=OF_for_Processing_users">OF for processing users</a> by Zach Gage, for those transitioning from Processing.</li>
+        <li><a href="http://www.4p8.com/eric.brasseur/cppcen.html">C++ tutorial for C users</a> for those transitioning from C.</li>
+        <li><a href="http://oreilly.com/catalog/9780596154141/">Programming Interactivity</a> by Joshua Noble, which covers openFrameworks 0.062 as well as Processing and Arduino.</li>
+        <li><a href="http://stackoverflow.com/">StackOverflow</a> is a great community for asking general and more esoteric questions.</li>
+        <li><a href="http://www.parashift.com/c++-faq-lite/index.html">C++ FAQ</a> by Marshall Cline, and the <a href="http://yosefk.com/c++fqa/index.html">C++ FQA Lite</a> by Yossi Kreinin.</li>
+        <li><a href="http://www.cppreference.com/wiki/">cppreference.com/wiki/</a> is a good Standard Template Library reference.</li>
+        <li><a href="http://cplusplus.com">cplusplus.com</a> has a great <a href="http://www.cplusplus.com/doc/tutorial/">language tutorial</a> and <a href="http://www.cplusplus.com/reference/">reference</a>.</li>
+        <li><a href="http://cprogramming.com/">cprogramming.com</a> has a lot of tutorials.</li>
+        </ul>
+      </div>
     </div>
   </div>
   <footer class='footer'>
     <div class='container'>
       <div class='row'>
         <div class='col-md-6 col-lg-4'>
-          <p class='text-muted text-center'>Astlay Updatedway 2015-05-07 14:41:20 -0400</p>
+          <p class='text-muted text-center'>Astlay Updatedway 2015-06-03 16:46:52 -0500</p>
         </div>
         <div class='col-md-6 col-lg-4'>
           <p class='text-muted text-center'>[LAST GITHUB COMMIT HASH GOES HERE]</p>
@@ -113,7 +213,7 @@
   </script>
   <!-- Include the various javascript bits -->
   <script src="//code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js" type="text/javascript"></script>
   <script src="../javascripts/all-dd4cd0b8.js" type="text/javascript"></script>
   
 </body>
